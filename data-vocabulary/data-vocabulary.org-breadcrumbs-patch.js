@@ -18,7 +18,7 @@ webSiteAdvantage.dataVocabularyBreadcrumbsPatch = function () {
             breadcrumb.parentElement.setAttribute('itemprop', 'breadcrumb');
             breadcrumb.parentElement.setAttribute('itemscope', '');
             breadcrumb.parentElement.setAttribute('itemtype', 'http://schema.org/BreadcrumbList');
-            // could add an id to make sure al breadcrumbs get added to the same list
+            // could add an id to make sure all breadcrumbs get added to the same list
         }
 
         // change itemtype and itemprop to the schema.org ones
